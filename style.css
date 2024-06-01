@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* topnav sarts here */
+
+
+.topnav {
+    background-color: rgb(51, 51,51);
+    display: flex;
+    gap: 30px;
+    position: fixed;
+    width: 100%;
+}
+
+
+.topnav a {
+   float: left;
+   color: #f2f2f2;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-size: 17px;
+}
+
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* .topnav ends here */
+
+/* 1st container ends here */
+.main {
+    width: 100%;
+    height: 650px;
+    background-image: url(./hackathon\ home\ page.jpeg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 200px;
+    color: white;
+}
+.main >h1 {
+    font-size: 120px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 50px;
+}
+.main >h2 {
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 40px;
+}
+.main >p {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 10px;
+}
+.main >p2{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 10px;
+}
+/* 1st container ends here */
+
+
+
+/* 2nd container starts here */
+.music {
+    background-color: rgb(37, 37, 41);
+    text-align: center;
+    align-items: center;
+    color: rgb(202, 197, 197);
+}
+.music >h1{
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 80;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.music >h2{
+    padding: 20px;
+    font-size: 100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.music >h4{
+    padding: 20px;
+    font-size: 30;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.music >p{
+    padding: 20px;
+    font-size: 20;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.music >img{
+    margin: 10px;
+    width: 700px;
+    height: 500px;
+}
+.music >a {
+    background-color: red;
+    margin: 20px;
+    height: 35px;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+
+/* 2nd container starts here */
+
+/* 3rd container starts here */
+.cont{
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+}
+.cont >h1{
+    font-size: 35px;
+    color: black;
+    padding-bottom: 30px;
+}
+.cont >p{
+    font-size: 20px;
+    color: black;
+    margin: 10px;
+    padding: 10px;
+}
+.cont >a{
+   text-decoration: none;
+   background-color: rgb(16, 48, 99);
+   color: white;
+   font-size: 20px;
+   padding: 15px;
+   margin: 20px;
+   height: 35px;
+}
+
+/* 3rd container ends here */
+
+/* 4th container starts here */
+.main2{
+    width: 100%;
+    height: 650px;
+    background-image: url(./hackathon\ night\ img.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+.main2 >h1{
+    padding-top: 200px;
+    font-size: 30px;
+    align-items: center;
+}
+.main2 >p{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 25px;
+    align-items: center;
+}
+
+/* 4th container ends here */
+
+
+/* 5th container starts here */
+.card{
+    display: flex;
+    gap: 100px;
+    text-align: center;
+    padding-bottom: 50px;
+    color: rgb(66, 66, 66);
+}
+.inner{
+    padding-top: 150px;
+    padding-bottom: 20px;
+    text-align: center;
+    align-items: center;
+}
+.inner >p{
+    text-align: left;
+    padding-bottom: 20px;
+}
+.inner >a{
+    align-items: left;
+    padding-right: 650px;
+    text-decoration: none;
+}
+
+/* 5th container ends here */
+
+/* 6th container starts here */
+.con{
+    display: flex;
+    gap: 50px;
+    background-color: rgb(37, 37, 41);
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 20px;
+}
+.block {
+    color: rgb(218, 216, 216);
+    text-decoration: none;
+}
+.block >h2{
+    text-align: center;
+    border-bottom: 1px solidgrey;
+}
+.block >ul{
+    padding-top: 10px;
+    list-style-type: none;
+}
+/* 6th container starts here */
+
+/* footer starts here */
+footer {
+    width: 100%;
+    height: 40px;
+    padding-top: 20px;
+    background-color: rgb(51, 50, 50);
+    color: white;
+    text-align: center;
+}
+
+/* footer starts here */
